@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'HelveticLight';
+	src: url('../fonts/helveticaneuecyr-light.otf');
+}
+
+
+
+#basic_info_block {
+	margin-top: 40px;
+	font-family: "HelveticLight", Arial, 'sans serif';
+}
+
+#basic_info_block .about_text p {
+    text-indent: 20px;
+    font-size: 1.3em;
+ }
+.subway1{color:#009944;}
+.subway2{color:#0066cc;}
+.subway3{color:#ff6666;}
+.sub{margin-bottom: -10px;}
+.subway_text{margin-left: 10px;}

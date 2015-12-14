@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'HelveticLight';
+	src: url('../fonts/helveticaneuecyr-light.otf');
+}
+
+
+
+
+#main_info_block {
+	margin-top: 40px;
+	background-color: #333;
+	/*color: rgba(255, 255, 245, 0.75);*/
+	color: rgba(255, 255, 245, 1);
+	background-attachment:fixed;
+	background-image: url("/images/panorama_glass.png"); 
+	background-size: auto, cover;
+	background-size: cover;	
+	padding-bottom: 1em;
+	padding-top: 1em;
+	font-family: "HelveticLight", Arial, 'sans serif';
+}
+
+#main_info_block .title {
+	font-size: 1.1em;
+}
+
+.check-icon {
+	display: block;
+	font-size: 3em;
+	color: #76EE00;
+	text-align: center;
+}
+
+.char_header {
+	text-align: center;
+	/*padding-top: 2em;*/
+}
+
+.main_info {
+	/*overflow: hidden;*/
+    padding-top: 2em;
+    background: rgba(112,112,112,0.5);
+    text-align: center;
+    padding-bottom: 2em;
+
+}
+
+.main_info .option {
+	opacity: 1;
+}
+
+.main_info .row:nth-child(2n){
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	.check-icon {
+		display: inline;
+		font-size: 2em;
+		color: #76EE00;
+		text-align: left;
+	}
+
+	.main_info {
+		text-align: left;
+	}
+	.option {
+		padding-left: 20px;
+	}
+
+	.main_info .row:nth-child(2n){
+		padding-bottom: 5px;
+	}
+
+}
+

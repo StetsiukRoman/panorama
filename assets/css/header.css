@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'HelveticLight';
+	src: url('../fonts/helveticaneuecyr-light.otf');
+}
+
+#header {
+	background-color: #4686a0;
+	color: rgba(255, 255, 255, 1);
+	background-attachment: fixed;
+	background-image: url("/images/city_panorama3.png");
+	background-size: 1700px 500px;
+	background-position: top;
+	height: 500px;
+	font-family: "HelveticLight", Arial, 'sans serif';
+	/*background-size: cover;*/
+	/*overflow: hidden;*/
+	/*position: relative;*/
+	/*text-align: center;*/
+}
+
+.panorama_icon {
+	text-align: center;
+	padding-top: 50px;
+}

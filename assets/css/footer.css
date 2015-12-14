@@ -1,0 +1,39 @@
+#footer {
+		padding: 2em 0 2em 0 ;
+		background-color: #4686a0;
+		color: rgba(255, 255, 255, 0.75);
+		background-attachment: fixed,							fixed,							fixed;
+		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
+		background-image: url(images/back_panorama.svg);
+		background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;
+		text-align: center;
+	}
+
+		#footer a {
+			border-bottom-color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer a:hover {
+				color: #ffffff;
+			}
+
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
+			color: #ffffff;
+		}
+
+		#footer header p {
+			color: #ffffff;
+		}
+
+		#footer header.major:after {
+			background: #ffffff;
+		}
+
+@media only screen and (max-width: 800px) {
+	#footer {
+		padding: 1em 0 1em 0 ;
+	}
+
+
+}

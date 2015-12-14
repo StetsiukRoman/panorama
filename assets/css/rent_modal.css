@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'HelveticLight';
+	src: url('../fonts/helveticaneuecyr-light.otf');
+}
+
+#myModal {
+	margin-top: 100px;
+}
+
+.modal-image {
+	width: 500px;
+	height: 400px;
+}
+
+.modal-title {
+	font-family: HelveticLight;
+	font-size: 20px;
+}
+
+.modal-download {
+	font-size: 50px;
+	text-align: center;
+	color: #5DC8CD;
+}
+
+.modal-download-icon {	
+	cursor: pointer;
+}
+
+.modal-plan {
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+	.modal-image {
+		width: 400px;
+		height: 300px;
+	}	
+
+}
+
+
+@media only screen and (max-width: 400px) {
+	.modal-image {
+		width: 300px;
+		height: 300px;
+	}
+
+}
+
+

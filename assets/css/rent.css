@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+
+.fonts {
+  font-family: 'Josefin Slab', serif;
+}
+
+@font-face {
+  font-family: 'HelveticLight';
+  src: url('../fonts/helveticaneuecyr-light.otf');
+}
+
+
+/*.floor_buttons {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+  background: #ececec;
+  overflow-y: scroll;
+}*/
+
+/*****************************/
+/***********Floor buttons**********/
+/*****************************/
+
+p {
+  margin-bottom: 0.5em;
+}
+
+ .floor_buttons < a,a:visited {
+  text-decoration: none;
+  color: #00AE68;
+}
+
+.clear {
+  clear: both;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #00AE68;
+}
+
+.pageSubTitle {
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1em;
+  color: #222;
+}
+
+.articleTitle {
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1em;
+  color: #222;
+}
+
+/*.wrapper {
+  width: 600px;
+  margin: 20px auto;
+}*/
+
+.floor_buttons {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container .floor_buttons{
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 
+    solid
+    1px
+    #CCC;
+    text-decoration: none;
+}
+
+.floor_buttons a.button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 80px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 35px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+
+.btnBlueGreen {
+  background: #00AE68;
+}
+
+.btnLightBlue {
+  background: #5DC8CD;
+}
+
+.selected {
+  background: #4682B4;
+}
+
+.btnOrange {
+  background: #FFAA40;
+}
+
+.btnPurple {
+  background: #A74982;
+}
+
+/* FADE */
+.btnFade.btnBlueGreen:hover {
+  background: #21825B;
+}
+
+.btnFade.btnLightBlue:hover {
+  background: #01939A;
+  text-decoration: none;
+}
+
+.floor_buttons {
+  text-align: center;
+}
+
+/*****************************/
+/***********Info box**********/
+/*****************************/
+
+.info-box {
+  margin-top: 60px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #01939A;; 
+  font-size: 1.2em;
+  font-family: HelveticLight;
+}
+
+.info-box .block {
+  display: block;
+}
+
+
+.info-box .free {
+    opacity: 0.5;
+    color: #7AF46C;
+}
+.info-box .not-free{
+    opacity: 0.7;
+    color: #ED356A;
+}
+.info-box .other{
+    color: #BFE7F7;
+}
+
+.info-box span {
+
+}
+
+.floor10 {
+  margin-left: 100px;
+}
+
+/*Responsive*/
+
+
+@media only screen and (max-width: 400px) {
+  .floor_buttons {
+    font-size: 15px;
+    
+}
+  .container .floor_buttons{
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 
+      solid
+      1px
+      #CCC;
+      text-decoration: none;
+  }
+
+.floor_buttons a.button {
+  display: block;
+  position: relative;
+  /*float: left;*/
+  width: 45px;
+  padding: 0;
+  margin: 10px 0px 10px 15px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 20px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+
+  .first_button{ 
+    margin-left: 5px;
+  }
+
+
+}
+
