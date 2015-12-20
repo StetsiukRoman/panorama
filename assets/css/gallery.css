@@ -5,7 +5,7 @@
 .gallery ul{
 	list-style: none outside none;
 }
-
+/*
 .gallery li {
 	display: block;
 	float: left;
@@ -13,7 +13,16 @@
 	margin-bottom: 30px;
 	margin-right: 30px;
 	width: 350px;
-	/*padding-left: 4em; */
+}*/
+
+.gallery li {
+    display: block;
+    float: left;
+    height: 233px;
+    margin-bottom: 30px;
+    margin-right: 17px;
+    width: 363px;
+    /* padding-left: 4em; */
 }
 
 .gallery li a {
@@ -26,6 +35,129 @@
 	cursor: pointer;
 }
 
+/*.gal/ery img:hover {
+	opacity: 0.5;
+}
+*/
+.gallery li .overlay {
+	background: rgba(137, 207, 240,.75);
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    bottom: 0px;
+    right: -3px;
+   	opacity:0;
+   	border-radius: 5px;
+   	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+       -o-transition: opacity .5s ease;
+          transition: opacity .5s ease;
+}
+
+
+/*img:hover #overlay{
+	opacity:1;
+}*/
+
+.gallery li .overlay:hover {
+	opacity:1;
+	cursor: pointer;
+}
+
+.overlay:hover span{
+    transform: translate(0,-30px);
+    -webkit-transform: translate(0,-30px);
+    -o-transform: translate(0,-30px); 
+    -moz-transform: translate(0,-30px);
+}
+
+.gallery li .overlay span{  
+	position: absolute;
+    top: 125px;
+    left: 30px;
+    bottom: 10px;
+    right: 10px;
+	font-family:Helvetica;
+   	font-weight:900;
+   	color:rgba(255,255,255,.85);
+   	font-size: 35px;
+
+    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+    -o-transition: all 0.5s ease-in-out; /** Opera **/
+ }
+
+
+/*.overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(15, 15, 15, 0.9);
+  opacity: 0;
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.overlay .overlay-inner {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+.overlay .overlay-inner h3 {
+  color: #F0F0F0;
+  margin-bottom: 15px;
+}
+
+.overlay .overlay-inner p {
+  color: #DBDBDB;
+  margin-bottom: 15px;
+}
+
+a:hover .overlay .overlay-inner h3 {
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
+}
+
+a:hover .overlay .overlay-inner p, a:hover .overlay .overlay-inner span {
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
+}
+.overlay-inner span {
+  font-size: 42px;
+  color: #DBDBDB;
+  font-weight: 300;
+  -webkit-transition: all .7s;
+     -moz-transition: all .7s;
+      -ms-transition: all .7s;
+       -o-transition: all .7s;
+          transition: all .7s;
+  -webkit-transform: translateY(30px);
+     -moz-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+       -o-transform: translateY(30px);
+}
+
+a:hover .overlay {
+  opacity: 1;
+}
+*/
 
 @media only screen and (max-width: 800px) {
 	.gallery li {
